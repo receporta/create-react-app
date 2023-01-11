@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Cinzel:wght@700&family=Russo+One&family=Vollkorn&display=swap");
+.skills {
+  height: 100vh;
+}
+
+.fd-skills,
+.bd-skills {
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 0 10px 0 #ccc;
+  border-radius: 10px;
+}
+
+.fd-skills h3,
+.bd-skills h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.progress-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 10px;
+}
+.progress-outer {
+  background: #fff;
+  padding: 10px 60px 5px 5px;
+  border: 5px solid #bebfbf;
+  border-radius: 45px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.progress {
+  background: #bebfbf;
+  border-radius: 20px;
+  margin: 0;
+}
+.progress .progress-bar {
+  border-radius: 20px;
+  box-shadow: none;
+  animation: animate-positive 2s;
+}
+.progress .progress-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6b7880;
+  position: absolute;
+  top: -2px;
+  right: 10px;
+}
+@keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}

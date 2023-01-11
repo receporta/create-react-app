@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Cinzel:wght@700&family=Russo+One&family=Vollkorn&display=swap");
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  justify-content: center;
+}
+.main_about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_about h2,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+._content {
+  display: flex;
+  padding-top: 20px;
+  gap: 50px;
+  justify-content: space-between;
+}
+._content .img_ img {
+  width: 580px;
+  height: 580px;
+  object-fit: contain;
+}
+
+.me_about {
+  display: flex;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 15px;
+  max-width: 580px;
+}
+.me_about p {
+  font-size: 18px;
+  font-family: "Vollkorn", serif;
+}
+.me_about button {
+  box-sizing: border-box;
+  padding: 15px 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: #191919;
+  color: #fff;
+  border: 1px solid #232323;
+  font-size: 18px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.me_about button:hover {
+  color: tomato;
+  background: #fff;
+  border: 1px solid #232323;
+}
+
+.me_about button i {
+  font-size: 22px;
+}
+
+.box-item-main {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 #ccc;
+  padding: 25px;
+  border-radius: 10px;
+}
+.box-item-main i {
+  font-size: 35px;
+}
+.box-item-main h4 {
+  padding: 0;
+  margin: 0;
+}
+.box-item-main span {
+  font-size: 12px;
+}
